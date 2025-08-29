@@ -1,0 +1,25 @@
+# Бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Временные файлы Go
+*.test
+*.prof
+
+# Зависимости Go
+/vendor/
+go.sum
+
+# Логи и временные файлы
+*.log
+tmp/
+
+# Среда разработки
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
